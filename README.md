@@ -20,8 +20,8 @@ A brief summary of SwiftRing's capabilities is below. Also see the media links f
 
  Once SwiftRing is installed, using it is very simple:
  
- * Hold down the option key to bring up the ring.
- * Touch a ring segment to perform the labeled action, no clicking is required.
+* Hold down the option key to bring up the ring.
+* Touch a ring segment to perform the labeled action, no clicking is required.
 
  The extra action labels stacked on the top and bottom segments are activated using the mouse scroll wheel. 
 
