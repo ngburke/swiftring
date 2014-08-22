@@ -12,7 +12,7 @@ open source for anyone to use or modify at will.
 Using SwiftRing
 ---------------
 
-The tutorial video (http://www.youtube.com/watch?v=Bs338wL_mX0) is the best way to get familiar with SwiftRing. 
+The tutorial [video](http://www.youtube.com/watch?v=Bs338wL_mX0) is the best way to get familiar with SwiftRing. 
 
 A brief summary of SwiftRing's capabilities is below. Also see the media links for in-depth reviews.
 
