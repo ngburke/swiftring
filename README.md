@@ -16,7 +16,7 @@ The tutorial video (http://www.youtube.com/watch?v=Bs338wL_mX0) is the best way 
 
 A brief summary of SwiftRing's capabilities is below. Also see the media links for in-depth reviews.
 
-*The Basics*
+**The Basics**
 
  Once SwiftRing is installed, using it is very simple:
  
@@ -25,14 +25,14 @@ A brief summary of SwiftRing's capabilities is below. Also see the media links f
 
  The extra action labels stacked on the top and bottom segments are activated using the mouse scroll wheel. 
 
-*Customizing*
+**Customizing**
 
  Actions can be customized for any application - simply assign as many keystrokes and/or shortcuts as desired 
  to a ring segment using the preferences panel. The ring activation key (option by default) can also be changed.
 
  SwiftRing comes with built in support for Safari and iTunes. A generic ring is also supported to provide common actions  for unrecognized applications.
 
-*Speed Demons*
+**Speed Demons**
  
  Power users can hold the <b>option</b> key, quickly touch a segment, and release option without the ring ever
  popping up for maximum efficiency. The scroll wheel can also be used to perform highly repetitive actions.
