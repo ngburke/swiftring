@@ -34,7 +34,7 @@ A brief summary of SwiftRing's capabilities is below. Also see the media links f
 
 **Speed Demons**
  
- Power users can hold the <b>option</b> key, quickly touch a segment, and release option without the ring ever
+ Power users can hold the option key, quickly touch a segment, and release option without the ring ever
  popping up for maximum efficiency. The scroll wheel can also be used to perform highly repetitive actions.
 
 
