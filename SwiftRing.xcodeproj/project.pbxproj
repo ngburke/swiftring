@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C72BC25E12740C7100F18954 /* SwiftRingStatusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C72BC25D12740C7100F18954 /* SwiftRingStatusIcon.png */; };
+		C72BC26012740C9100F18954 /* SwiftRingIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C72BC25F12740C9100F18954 /* SwiftRingIcon.icns */; };
+		C76800960FFFDB4300EC471E /* OverlayWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A3FFDE03E1093B01233D9E /* OverlayWindow.h */; };
+		C76800970FFFDB4300EC471E /* RingFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C79A4F230FAE5F3B008CAC7D /* RingFactory.h */; };
+		C76800980FFFDB4300EC471E /* RingView.h in Headers */ = {isa = PBXBuildFile; fileRef = C79A4F2A0FAE6059008CAC7D /* RingView.h */; };
+		C76800990FFFDB4300EC471E /* Ring.h in Headers */ = {isa = PBXBuildFile; fileRef = C77D00A10FB25AA1005E3AA8 /* Ring.h */; };
+		C768009A0FFFDB4300EC471E /* Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = C74421060FDCE400005C1DFC /* Debug.h */; };
+		C768009C0FFFDB4300EC471E /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		C768009D0FFFDB4300EC471E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		C76800A20FFFDB4300EC471E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		C76800A30FFFDB4300EC471E /* OverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A3FFDF03E1093B01233D9E /* OverlayWindow.m */; };
+		C76800A40FFFDB4300EC471E /* RingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C79A4F240FAE5F3B008CAC7D /* RingFactory.m */; };
+		C76800A50FFFDB4300EC471E /* RingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C79A4F2B0FAE6059008CAC7D /* RingView.m */; };
+		C76800A60FFFDB4300EC471E /* Ring.m in Sources */ = {isa = PBXBuildFile; fileRef = C77D00A20FB25AA1005E3AA8 /* Ring.m */; };
+		C76800A80FFFDB4300EC471E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C76800A90FFFDB4300EC471E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFF03B404269A0200CB1BD2 /* Carbon.framework */; };
+		C7B5306412D12C07009E6136 /* Config Files in Resources */ = {isa = PBXBuildFile; fileRef = C7B5305C12D12C07009E6136 /* Config Files */; };
+		C7B7F62210266117001E1826 /* RecordingPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B7F62010266116001E1826 /* RecordingPanel.h */; };
+		C7B7F62310266117001E1826 /* RecordingPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B7F62110266117001E1826 /* RecordingPanel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7B5304812D12AAC009E6136 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BDEF1B12D1534C0042E7D7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4CFF03B404269A0200CB1BD2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		C7101F2B14CE4A73000D3513 /* SwiftRing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72BC25D12740C7100F18954 /* SwiftRingStatusIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwiftRingStatusIcon.png; sourceTree = "<group>"; };
+		C72BC25F12740C9100F18954 /* SwiftRingIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SwiftRingIcon.icns; sourceTree = "<group>"; };
+		C74421060FDCE400005C1DFC /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		C76800AE0FFFDB4300EC471E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77D00A10FB25AA1005E3AA8 /* Ring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ring.h; sourceTree = "<group>"; };
+		C77D00A20FB25AA1005E3AA8 /* Ring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ring.m; sourceTree = "<group>"; };
+		C79A4F230FAE5F3B008CAC7D /* RingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingFactory.h; sourceTree = "<group>"; };
+		C79A4F240FAE5F3B008CAC7D /* RingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingFactory.m; sourceTree = "<group>"; };
+		C79A4F2A0FAE6059008CAC7D /* RingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingView.h; sourceTree = "<group>"; };
+		C79A4F2B0FAE6059008CAC7D /* RingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingView.m; sourceTree = "<group>"; };
+		C7B5305C12D12C07009E6136 /* Config Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Config Files"; sourceTree = "<group>"; };
+		C7B7F62010266116001E1826 /* RecordingPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingPanel.h; sourceTree = "<group>"; };
+		C7B7F62110266117001E1826 /* RecordingPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingPanel.m; sourceTree = "<group>"; };
+		F5A3FFDE03E1093B01233D9E /* OverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OverlayWindow.h; sourceTree = "<group>"; };
+		F5A3FFDF03E1093B01233D9E /* OverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OverlayWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76800A70FFFDB4300EC471E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76800A80FFFDB4300EC471E /* Cocoa.framework in Frameworks */,
+				C76800A90FFFDB4300EC471E /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5A3FFDE03E1093B01233D9E /* OverlayWindow.h */,
+				F5A3FFDF03E1093B01233D9E /* OverlayWindow.m */,
+				C77D00A10FB25AA1005E3AA8 /* Ring.h */,
+				C77D00A20FB25AA1005E3AA8 /* Ring.m */,
+				C79A4F230FAE5F3B008CAC7D /* RingFactory.h */,
+				C79A4F240FAE5F3B008CAC7D /* RingFactory.m */,
+				C79A4F2A0FAE6059008CAC7D /* RingView.h */,
+				C79A4F2B0FAE6059008CAC7D /* RingView.m */,
+				C7B7F62010266116001E1826 /* RecordingPanel.h */,
+				C7B7F62110266117001E1826 /* RecordingPanel.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				4CFF03B404269A0200CB1BD2 /* Carbon.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* testindicator */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				C76800AE0FFFDB4300EC471E /* Info.plist */,
+				C7101F2C14CE4A73000D3513 /* Products */,
+			);
+			name = testindicator;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				C74421060FDCE400005C1DFC /* Debug.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5305C12D12C07009E6136 /* Config Files */,
+				C72BC25F12740C9100F18954 /* SwiftRingIcon.icns */,
+				C72BC25D12740C7100F18954 /* SwiftRingStatusIcon.png */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7101F2C14CE4A73000D3513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7101F2B14CE4A73000D3513 /* SwiftRing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C76800950FFFDB4300EC471E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76800960FFFDB4300EC471E /* OverlayWindow.h in Headers */,
+				C76800970FFFDB4300EC471E /* RingFactory.h in Headers */,
+				C76800980FFFDB4300EC471E /* RingView.h in Headers */,
+				C76800990FFFDB4300EC471E /* Ring.h in Headers */,
+				C768009A0FFFDB4300EC471E /* Debug.h in Headers */,
+				C7B7F62210266117001E1826 /* RecordingPanel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C76800940FFFDB4300EC471E /* SwiftRing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76800AA0FFFDB4300EC471E /* Build configuration list for PBXNativeTarget "SwiftRing" */;
+			buildPhases = (
+				C76800950FFFDB4300EC471E /* Headers */,
+				C768009B0FFFDB4300EC471E /* Resources */,
+				C76800A10FFFDB4300EC471E /* Sources */,
+				C76800A70FFFDB4300EC471E /* Frameworks */,
+				C7B5304812D12AAC009E6136 /* CopyFiles */,
+				C7BDEF1B12D1534C0042E7D7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftRing;
+			productInstallPath = "$(HOME)/Applications";
+			productName = testindicator;
+			productReference = C7101F2B14CE4A73000D3513 /* SwiftRing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = SwiftRing;
+			};
+			buildConfigurationList = C75F189E0FAD102300188174 /* Build configuration list for PBXProject "SwiftRing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* testindicator */;
+			productRefGroup = C7101F2C14CE4A73000D3513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76800940FFFDB4300EC471E /* SwiftRing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C768009B0FFFDB4300EC471E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C768009C0FFFDB4300EC471E /* MainMenu.nib in Resources */,
+				C768009D0FFFDB4300EC471E /* InfoPlist.strings in Resources */,
+				C72BC25E12740C7100F18954 /* SwiftRingStatusIcon.png in Resources */,
+				C72BC26012740C9100F18954 /* SwiftRingIcon.icns in Resources */,
+				C7B5306412D12C07009E6136 /* Config Files in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76800A10FFFDB4300EC471E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76800A20FFFDB4300EC471E /* main.m in Sources */,
+				C76800A30FFFDB4300EC471E /* OverlayWindow.m in Sources */,
+				C76800A40FFFDB4300EC471E /* RingFactory.m in Sources */,
+				C76800A50FFFDB4300EC471E /* RingView.m in Sources */,
+				C76800A60FFFDB4300EC471E /* Ring.m in Sources */,
+				C7B7F62310266117001E1826 /* RecordingPanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C75F18980FAD102300188174 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Development;
+		};
+		C75F18990FAD102300188174 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Deployment;
+		};
+		C76800AB0FFFDB4300EC471E /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "SwiftRing-debug";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		C76800AC0FFFDB4300EC471E /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = SwiftRing;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75F189E0FAD102300188174 /* Build configuration list for PBXProject "SwiftRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75F18980FAD102300188174 /* Development */,
+				C75F18990FAD102300188174 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		C76800AA0FFFDB4300EC471E /* Build configuration list for PBXNativeTarget "SwiftRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76800AB0FFFDB4300EC471E /* Development */,
+				C76800AC0FFFDB4300EC471E /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

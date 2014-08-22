@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Arrows</key>
+	<integer>0</integer>
+	<key>LaunchKey</key>
+	<integer>0</integer>
+	<key>Delay</key>
+	<real>0.8</real>
+	<key>MenuBar</key>
+	<integer>1</integer>
+	<key>RegKey</key>
+	<integer>0</integer>
+</dict>
+</plist>

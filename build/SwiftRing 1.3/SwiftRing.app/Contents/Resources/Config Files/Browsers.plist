@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Label</key>
+		<string>Tabs</string>
+		<key>Submenu</key>
+		<dict>
+			<key>0</key>
+			<dict>
+				<key>Keys</key>
+				<string>54_1 13_1 13_0 54_0 </string>
+				<key>Label</key>
+				<string>Close</string>
+			</dict>
+			<key>1</key>
+			<dict>
+				<key>Keys</key>
+				<string>54_1 17_1 17_0 54_0 </string>
+				<key>Label</key>
+				<string>New</string>
+			</dict>
+			<key>Apps</key>
+			<string></string>
+			<key>RingSegments</key>
+			<string>2</string>
+			<key>ScrollDown</key>
+			<dict>
+				<key>Keys</key>
+				<string>54_1 60_1 33_1 33_0 60_0 54_0 </string>
+				<key>Label</key>
+				<string>Previous Tab</string>
+			</dict>
+			<key>ScrollUp</key>
+			<dict>
+				<key>Keys</key>
+				<string>54_1 60_1 30_1 30_0 60_0 54_0 </string>
+				<key>Label</key>
+				<string>Next Tab</string>
+			</dict>
+			<key>TotalSegments</key>
+			<string>4</string>
+		</dict>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Keys</key>
+		<string>54_1 30_1 30_0 54_0</string>
+		<key>Label</key>
+		<string>Forward</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Keys</key>
+		<string>54_1 45_1 45_0 54_0 </string>
+		<key>Label</key>
+		<string>New Window</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Keys</key>
+		<string>54_1 33_1 33_0 54_0 </string>
+		<key>Label</key>
+		<string>Back</string>
+	</dict>
+	<key>Apps</key>
+	<string>Safari,</string>
+	<key>Name</key>
+	<string>Browsers</string>
+	<key>RingSegments</key>
+	<integer>4</integer>
+	<key>ScrollDown</key>
+	<dict>
+		<key>Keys</key>
+		<string></string>
+		<key>Label</key>
+		<string></string>
+	</dict>
+	<key>ScrollUp</key>
+	<dict>
+		<key>Keys</key>
+		<string></string>
+		<key>Label</key>
+		<string></string>
+	</dict>
+	<key>TotalSegments</key>
+	<integer>6</integer>
+	<key>Version</key>
+	<string>01.1.00 a</string>
+</dict>
+</plist>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Keys</key>
+		<string>55_1 13_1 13_0 55_0</string>
+		<key>Label</key>
+		<string>Close Window</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Keys</key>
+		<string>55_1 12_1 12_0 55_0</string>
+		<key>Label</key>
+		<string>Quit</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Keys</key>
+		<string>54_1 45_1 45_0 54_0</string>
+		<key>Label</key>
+		<string>New Window</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Keys</key>
+		<string>55_1 46_1 46_0 55_0</string>
+		<key>Label</key>
+		<string>Minimize</string>
+	</dict>
+	<key>Apps</key>
+	<string>Default,</string>
+	<key>Name</key>
+	<string>Default</string>
+	<key>RingSegments</key>
+	<integer>4</integer>
+	<key>ScrollDown</key>
+	<dict>
+		<key>Keys</key>
+		<string></string>
+		<key>Label</key>
+		<string></string>
+	</dict>
+	<key>ScrollUp</key>
+	<dict>
+		<key>Keys</key>
+		<string></string>
+		<key>Label</key>
+		<string></string>
+	</dict>
+	<key>TotalSegments</key>
+	<integer>6</integer>
+	<key>Version</key>
+	<string>01.1.00 a</string>
+</dict>
+</plist>
