@@ -3,8 +3,6 @@ SwiftRing
 
 SwiftRing enables mouse shortcuts for any Mac / OS X application. 
 
-**Some History**
-
 SwiftRing was conceived in 2009, and available commercially in 2011/12. It was an interesting experiment in UI that coupled highly configurable gestures with a simple, non-obtrustive, rapid way to learn and recall them. 
 
 With the 2011 launch of the Mac app store and subsequent lockdown of apps that automated user input, coupled with
