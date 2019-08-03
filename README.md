@@ -44,4 +44,3 @@ Media Reviews
 * http://mac.appstorm.net/reviews/utilities/swiftring-a-unique-mouse-gesture-app-for-os-x/
 * http://www.addictivetips.com/mac-os/control-any-mac-app-with-custom-mouse-gestures-using-switftring/
 * http://www.macstories.net/reviews/swiftring-for-mac-combines-gestures-and-keyboard-shortcuts/
-* http://www.makeuseof.com/tag/energize-power-mouse-functions-swiftring-mac/
